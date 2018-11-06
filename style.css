@@ -11,10 +11,50 @@ Version: 1.0
 General comments/License Statement if any.
 GNU General Public License v2 or later
 */
-body {
-	background-color: red;
+
+html {
+	box-sizing: border-box;
 }
 
-h1 {
-	color: blue;
+*, *:before, *:after {
+	box-sizing: inherit;
 }
+
+.contenedor {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header.encabezado-sitio {
+	border-bottom: 1px solid #c1c1c1;
+
+}
+
+/* posicion de la imagen del logo centrado para pantañña normal */
+header.logo {
+	text-align: center;
+
+}
+
+/**cambiar la posicion de la imagen del logotipo **/
+img.logotipo {
+	width: 250px;
+}
+@media only screen and (min-width: 768px) {
+	div.logo {
+		text-align: left;
+	}
+}
+@media only screen and (min-width: 992px) {
+	div.logo {
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
