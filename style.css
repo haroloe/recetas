@@ -1,0 +1,16 @@
+/*
+Theme Name: La Pizzeria
+Theme URI: www.serviciosenlinea.com
+Description: Tema para Restaurant y Pizzeria
+Author: Ludwin Orihuela
+Author URI: www.serviciosenlinea.com
+tags: Restaurant, Movile first, responsive, pizza
+Text Domain: lapizzeria
+Version: 1.0
+.
+General comments/License Statement if any.
+GNU General Public License v2 or later
+*/
+body {
+	background-color: red;
+}
