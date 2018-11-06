@@ -14,3 +14,7 @@ GNU General Public License v2 or later
 body {
 	background-color: red;
 }
+
+h1 {
+	color: blue;
+}
